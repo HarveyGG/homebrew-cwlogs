@@ -1,9 +1,9 @@
 class Cwlogs < Formula
   desc "AWS CloudWatch Log Viewer with HTML output, alias & highlight support"
   homepage "https://github.com/HarveyGG/aws-cloudwatch-viewer-cli"
-  url "https://github.com/HarveyGG/aws-cloudwatch-viewer-cli/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "35f95778e2b44e589aaa44201b828adac6ad6abe8e585a05e69787f7d9a016dd"
-  version "0.2.0"
+  url "https://github.com/HarveyGG/aws-cloudwatch-viewer-cli/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "ffed057ddbf1279e1e24962a1f89d672ee74dccaabc70ab5058c3f31a3820fdc"
+  version "0.3.1"
 
   def install
     bin.install "bin/cwlogs"
